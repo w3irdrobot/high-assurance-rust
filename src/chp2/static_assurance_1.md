@@ -59,7 +59,7 @@ Generally speaking:
 
     * *Failure to terminate* means the analysis never outputs a result. This can be due to "state explosion" - a combinatorial growth in complexity of the problem the analysis is trying to reason about. To avoid spinning forever, many commercial tools reduce complexity via approximation. Which, again, risks false positives.
 
-Designing an static analysis algorithm practical enough to terminate (no state explosion) yet clever enough to never produce a false positive (no over-approximation) is, surprisingly often, impossible.
+Designing a static analysis algorithm practical enough to terminate (no state explosion) yet clever enough to never produce a false positive (no over-approximation) is, surprisingly often, impossible.
 Not "impossible given our current knowledge and computational power".
 Provably impossible, as in the problem is mathematically *undecidable*[^AliasPaper][^AliasPaper2].
 
