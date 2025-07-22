@@ -62,6 +62,7 @@ Listed alphabetically:
 * [tshepang](https://github.com/tshepang)
 * [U007D](https://github.com/U007D)
 * [Vishal Lama](https://github.com/vishallama)
+* [w3irdrobot](https://github.com/w3irdrobot)
 
 <br>
 
