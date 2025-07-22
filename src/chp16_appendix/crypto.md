@@ -74,7 +74,7 @@ In practice, most implementations encrypt a byte (8 bits) at a time because mode
 By contrast, **block ciphers** need to break data up into fixed-size chunks.
 For the popular Advanced Encryption Standard (AES)[^AES], a block must be 128 bits (16 bytes).
 
-While both stream and block ciphers accomplish the same goal, stream ciphers tend have a smaller memory footprint and faster runtimes[^Perf].
+While both stream and block ciphers accomplish the same goal, stream ciphers tend to have a smaller memory footprint and faster runtimes[^Perf].
 So they're often used for low-resource embedded systems and real-time data processing.
 
 The "smarts" of any stream cipher algorithm is how it turns a finite-size key (RC4 lets Alice and Bob choose anywhere from 40 to 2,048 bits) into a **keystream** as long as the input data (which could be arbitrarily long, maybe we need to encrypt a 10 GB file).
