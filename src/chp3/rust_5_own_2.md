@@ -52,7 +52,7 @@ That's a solid starting point for high assurance software.
 
 > **Computers and Humans Exploring Software Security (CHESS)**
 >
-> CHESS was  DARPA research program[^CHESS] on "the effectiveness of enabling computers and humans to collaboratively reason over software artifacts...with the goal of finding 0-day vulnerabilities at a scale and speed appropriate for the complex software ecosystem upon which the U.S. Government, military, and economy depend"[^CHESSDesc].
+> CHESS was a DARPA research program[^CHESS] on "the effectiveness of enabling computers and humans to collaboratively reason over software artifacts...with the goal of finding 0-day vulnerabilities at a scale and speed appropriate for the complex software ecosystem upon which the U.S. Government, military, and economy depend"[^CHESSDesc].
 >
 > It's a response to the fact that in-depth security assessments are a **difficult to scale expert process**.
 > Rust was not considered a solution under the CHESS program.

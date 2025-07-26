@@ -201,7 +201,7 @@ Including implicit cases like this one.
 One goal of testing is to show that a program is robust enough to not hit such assertions in practice, due to checks and/or mitigations.
 Some number of fatal assertions will always be present, but thorough testing can give us confidence that a program avoids them.
 
-Now in certain cases, we may be able to remove problem potential entirely.
+Now in certain cases, we may be able to remove potential problems entirely.
 For example, we could have initialized the array using an iterator to eliminate the possibility of an out-of-bounds index:
 
 ```rust,noplaypen
