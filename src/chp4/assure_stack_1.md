@@ -75,7 +75,7 @@ Lets visualize how a code snippet uses the stack, to make the push/pop discussio
 
 * We're interested in how this program uses stack memory at runtime, adding the attribute `#[inline(never)]` to ensure the compiler allocates a stack frame each time either `recursive_count_down` or `square` is called.
 
-  * "Inlining" is an opportunistic compiler optimization can avoids function call overhead, including stack frame allocation and caller-register preservation [^Inlining]. It's not always applicable and as programmer we don't directly decide where it is. So forgoing it is a realistic case to prepare for.
+  * "Inlining" is an opportunistic compiler optimization that avoids function call overhead, including stack frame allocation and caller-register preservation [^Inlining]. It's not always applicable and as programmer we don't directly decide where it is. So forgoing it is a realistic case to prepare for.
 
 If run with `cargo run -- 2`, this program outputs:
 

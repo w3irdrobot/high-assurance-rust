@@ -80,7 +80,7 @@ Be it C, C++, or `unsafe` Rust.
 
 For a more concrete discussion of memory and type safety, we'll examine three C snippets and visualize the violations therein. Note:
 
-* None of the three snippets are, to the best our knowledge, *exploitable*. These small programs break safety, but not in manner unfortunate enough to enable a break of data-code isolation.
+* None of the three snippets are, to the best our knowledge, *exploitable*. These small programs break safety, but not in a manner unfortunate enough to enable a break of data-code isolation.
 
 This distinction is intensional.
 We're starting by learning to identify bugs, even if innocuous.
@@ -416,7 +416,7 @@ In this type safety example, it happens to be hardcoded and thus stored in stati
 
 > **What if we're not talking about binaries?**
 >
-> We're focused on binary exploitation in this chapter, but that the data-is-code concept applies generally.
+> We're focused on binary exploitation in this chapter, but the data-is-code concept applies generally.
 > Let's pick on Java for a moment.
 >
 > The Java language is ubiquitous in enterprise and shares its runtime with languages like Kotlin, Clojure, and Scala.

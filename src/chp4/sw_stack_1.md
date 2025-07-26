@@ -69,7 +69,7 @@ Both topics are the subjects of entire technical books, so we'll visually diagra
 </p>
 
 Main memory, a physical machine's Random Access Memory (RAM), supports all non-trivial runtime computation.
-The bit-patterns it stores and operates on representations two distinct items:
+The bit-patterns it stores and operates on represent two distinct items:
 
 * **Data** - Variable-length sequences of bytes representing any information: hardcoded strings, colors codes, numbers, entire image and video files, etc. Each byte can be addressed individually, even if word-aligned accesses are often preferable for performance.
 
@@ -114,7 +114,7 @@ Fortunately, we don't have to consider or understand such minutia when programmi
 The jobs of various registers are, by contrast, important for a working mental model.
 In addition to the IP, the two special purpose registers worth noting are:
 
-* The **Stack Pointer (`SP`)** register - the address denoting the bottom of the current stack frame. A stack frame is akin to function's in-RAM "notepad" for computing and saving *function-local* results.
+* The **Stack Pointer (`SP`)** register - the address denoting the bottom of the current stack frame. A stack frame is akin to a function's in-RAM "notepad" for computing and saving *function-local* results.
 
     * In the statement `let x = 3 + 6;`, `x` will be computed using registers, then the value `9` will be stored on the stack[^RegisterAlloc]. This allows the CPU to re-use its small, fixed set of `GP*` registers for new computations when multiple functions are called in a program.
 
@@ -185,7 +185,7 @@ It's important you commit it to memory, pun intended.
 > The kernel runs in "ring 0", the most privileged mode available.
 > It can read/write from/to any processes's memory, directly access hardware, and control special CPU features.
 >
-> Rings 2 and 3 are almost never used in practice[^RingProt].
+> Rings 1 and 2 are almost never used in practice[^RingProt].
 > These modes were intended for device drivers, special programs that allow a kernel to communicate with vendor-specific hardware.
 > In reality most device drivers are loaded directly into the kernel, running alongside it in ring 0 (creating a major OS attack surface[^MSKernBlocklist]).
 >

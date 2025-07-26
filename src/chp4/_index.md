@@ -142,7 +142,7 @@ But after finishing the chapter, maybe you'll start viewing memory primarily thr
 * Develop a mental model of memory safety, type safety, and binary exploitation
 * Learn to debug Rust code using Mozilla `rr`[^RR] (an enhanced variant of `gdb`[^GDB])
 * Understand how attackers exploit heap memory corruption bugs, step-by-step
-* Write your first an introductory exploit or two, bypassing modern protections!
+* Write an introductory exploit or two, bypassing modern protections!
 * Understand how Rust actually provides memory safety, including current limitations
 * Understand how modern, language-agnostic exploit mitigations work (and how they can fail)
 
